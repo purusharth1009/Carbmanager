@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carb manager</title>
+    <style>
+       *{
+        margin: 0px;
+        padding: 0px;
+       }
+     #bag{
+        border: solid rgb(30, 32, 31);
+        width: 100%;
+        height: 900px;
+        color :white;
+        background-color: rgb(39,194,141);
+        font-family: proxima-nova, Helvetica, Arial, sans-serif;
+        border-bottom-left-radius: 400px;
+      
+     }
+     #bag1{
+    border: solid black;
+    width: 90%;
+    /* height: 10%; */
+    margin: auto;
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 80px;
+
+     }
+        
+     
+        #bag1 > :nth-child(1){
+                display: flex;
+                border: 2px solid red;
+                /* justify-content: space-evenly; */
+                /* align-items: center; */
+                padding: 12px;
+                width: 3%;
+                
+     }
+            #bag1 > :nth-child(3){
+                display: flex;
+                border: 2px solid red;
+                padding: 12px;
+             margin-left: 28px;
+             font-size: large;
+                width: 50%;
+                justify-content: space-evenly;
+                align-items: center;
+                
+            }
+            #bag1 > :nth-child(2){
+                border: 2px solid rgb(70, 22, 115);
+                padding: 15px;
+                margin-left: -45px;
+             font-size: larger;
+                justify-content: space-evenly;
+                /* color: white; */
+                align-items: center;
+                display: flex;
+               
+            }
+            #bag1 > :nth-child(4){
+                border: 2px solid rgb(70, 22, 115);
+                padding: 20px;
+               gap: 50px;
+               font-size: large;
+                justify-content: space-evenly;
+                /* color: white; */
+                align-items: center;
+                display: flex;
+                offset-distance: 10px;
+            }
+            img{
+       
+        width: 100%;
+        height: 100%;
+    
+        border-radius: 8px;
+        object-fit: cover;
+        justify-content: space-evenly;
+        
+            }
+            .my-button {
+   
+    background-color: rgb(39,194,141);
+    color: white;
+    border: none;
+    font-size: large;
+            }
+            .my-button :hover{
+               display: inline-block;
+
+
+            }
+            .button{
+                padding: 20px;
+                border: none;
+                color: rgb(39,194,141);
+               border-radius: 30px;
+               font-size: large;
+            }
+            #bag2{
+                border: solid black;
+                display: flex;
+                width: 80%;
+                gap: 70px;
+                height: 550px;
+                box-sizing: border-box;
+              margin-left: 140px;
+              margin-top: 40px;
+              font-family:  proxima-nova, Helvetica, Arial, sans-serif;
+
+            }
+            #bag3{
+                border: solid black;
+                height: 100%;
+                width: 48%;
+                
+                
+              line-height: 72px;
+            }
+            .content1{
+                font-size: 30px;
+              font-weight: 700;
+             line-height: none;
+          color: inherit;
+          line-height: 8px;
+        
+               margin-top:40px
+            }
+            .content2{
+                font-size: x-large;
+                line-height: auto;
+            }
+            
+            .signup{
+                padding: 0 16px 0 32px;
+                display: block;
+              width: 86%;
+              height: 47px;
+             color: #6f737a;
+   
+    font-size: 16px;
+    border-radius: 100px;
+    border: none;
+    background: #fff;
+            }
+            .signupbutton{
+                padding: 16px 12px;
+               display: flex;
+    min-height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 100px;
+    color: #fff;
+    background: #f94642;
+    flex: 1 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+    line-height:10px;
+    text-decoration: none;
+    background-image: none;
+    border: none;
+    text-shadow: none;
+    outline: none;
+    box-shadow: none;
+    min-width: 196px;
+    margin-left: 325px;
+    margin-top: -47px;
+    
+}
+.signupbutton:hover{
+    background-color: #db3a37;
+
+
+}
+ul {
+    display:-webkit-box;
+    -webkit-box-pack: center;
+    padding:30px 5px 10px 20px;
+    gap: 80px
+
+    
+
+}
+#bag5{
+    display: flex;
+    border: solid black;
+    position: relative;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    min-zoom: 30%;
+    
+}
+            
+    </style>
+</head>
+<body>
+<div id="bag">
+    <div id="bag1">
+        
+          <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwbeKHsHsxr96FbUto-Wngc9P3xco_iej-ITQym172SeaazCVA"/></div>
+         <div> <h3>Carb Manager</h3>
+        </div>
+        <div class>
+     <button class="my-button">   <b><p>Features</p></b> </button>   
+     <button class="my-button">  <b><p>Premium</p></b>  </button>  
+        <button class="my-button">  <b><p>Recipes</p></b>  </button>  
+        <button class="my-button"> <b><p>Articles</p></b>  </button>  
+            <button class="my-button"> <b><p>Cookbook</p></b>  </button>  
+                <button class="my-button"> <b><p>Support</p></b> </button>  
+         </div>
+         <div>
+            <button class="my-button"><b><p>Log In</p></b> </button>  
+            <button class="button"><b>  <p>Get the app</p></b>  </button>  
+         </div>
+    </div>
+    <div>
+    <div id="bag2"> 
+        <div id="bag3">
+        <h1 style="font-size: 67px;">Keto & Low-Carb Made Easy</h1>
+        <p class="content1">The #1 Low-Carb and Keto Diet App</p>
+        <p class="content2">For healthy & sustainable low-carb living</p>
+       
+       <div ><input class="signup" aria-label="Email Address" type="text" name="signup" placeholder="Enter email Address" value class="sign-up-form__input">
+        <button  type="submit" class="signupbutton"> Create Free Account</button></div>
+        <ul >
+            <li ><a href="https://www.carbmanager.com/_nuxt/img/60951ef.svg" target="blank" ><img alt="Download on the App Store" src="https://www.carbmanager.com/_nuxt/img/60951ef.svg"  ></a></li>
+            <li ><a href="https://www.carbmanager.com/_nuxt/img/2cfb49a.svg" target="blank"   ><img alt="Get in on Google Play" src="https://www.carbmanager.com/_nuxt/img/2cfb49a.svg" ></a></li>
+        </ul>
+    
+        </div>
+        <div id="bag5">
+
+            <img src="https://www.carbmanager.com/_nuxt/img/9bfac4e.png">
+    </div>
+    
+    </div>
+    </div>
+   
+</div>
+</body>
